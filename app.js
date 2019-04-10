@@ -48,6 +48,7 @@ msfbtn.on("click", function() {
     var trace3 = {
         x: x,
         y: l,
+        name: "Lower Prediction",
         type: "line",
         line: {
             color: 'rgb(55, 128, 191)',
@@ -56,6 +57,7 @@ msfbtn.on("click", function() {
     var trace4 = {
         x: x,
         y: u,
+        name: "Upper prediction",
         fill: 'tonexty',
         line: {
             color: 'rgb(55, 128, 191)',
@@ -65,6 +67,7 @@ msfbtn.on("click", function() {
         var trace2 = {
             x: x,
             y: z,
+            name: "Predicted Price",
             type: "line"
             };
     var datat = [trace1, trace3, trace4, trace2];
@@ -117,6 +120,7 @@ applebtn.on("click", function() {
     var trace1 = {
     x: x,
     y: y,
+    name: "Actual Price",
     type: "line",
     line: {
         color: 'rgb(0,0,0)',
@@ -126,6 +130,7 @@ applebtn.on("click", function() {
     var trace3 = {
         x: x,
         y: l,
+        name: "Lower Prediction",
         type: "line",
         line: {
             color: 'rgb(55, 128, 191)',
@@ -134,6 +139,7 @@ applebtn.on("click", function() {
     var trace4 = {
         x: x,
         y: u,
+        name: "Upper prediction",
         fill: 'tonexty',
         line: {
             color: 'rgb(55, 128, 191)',
@@ -143,6 +149,7 @@ applebtn.on("click", function() {
         var trace2 = {
             x: x,
             y: z,
+            name: "Predicted Price",
             type: "line"
             };
     var datat = [trace1, trace3, trace4, trace2];
@@ -191,6 +198,7 @@ Exxonbtn.on("click", function() {
     var trace1 = {
     x: x,
     y: y,
+    name: "Actual Price",
     type: "line",
     line: {
         color: 'rgb(0,0,0)',
@@ -200,6 +208,7 @@ Exxonbtn.on("click", function() {
     var trace3 = {
         x: x,
         y: l,
+        name: "Lower Prediction",
         type: "line",
         line: {
             color: 'rgb(55, 128, 191)',
@@ -208,6 +217,7 @@ Exxonbtn.on("click", function() {
     var trace4 = {
         x: x,
         y: u,
+        name: "Upper prediction",
         fill: 'tonexty',
         line: {
             color: 'rgb(55, 128, 191)',
@@ -217,6 +227,7 @@ Exxonbtn.on("click", function() {
         var trace2 = {
             x: x,
             y: z,
+            name: "Predicted Price",
             type: "line"
             };
     var datat = [trace1, trace3, trace4, trace2];
@@ -265,6 +276,7 @@ starbtn.on("click", function() {
     var trace1 = {
     x: x,
     y: y,
+    name: "Actual Price",
     type: "line",
     line: {
         color: 'rgb(0,0,0)',
@@ -274,6 +286,7 @@ starbtn.on("click", function() {
     var trace3 = {
         x: x,
         y: l,
+        name: "Lower Prediction",
         type: "line",
         line: {
             color: 'rgb(55, 128, 191)',
@@ -282,6 +295,7 @@ starbtn.on("click", function() {
     var trace4 = {
         x: x,
         y: u,
+        name: "Upper prediction",
         fill: 'tonexty',
         line: {
             color: 'rgb(55, 128, 191)',
@@ -291,6 +305,7 @@ starbtn.on("click", function() {
         var trace2 = {
             x: x,
             y: z,
+            name: "Predicted Price",
             type: "line"
             };
     var datat = [trace1, trace3, trace4, trace2];
@@ -338,6 +353,7 @@ welltbtn.on("click", function() {
     var trace1 = {
     x: x,
     y: y,
+    name: "Actual Price",
     type: "line",
     line: {
         color: 'rgb(0,0,0)',
@@ -347,6 +363,7 @@ welltbtn.on("click", function() {
     var trace3 = {
         x: x,
         y: l,
+        name: "Lower Prediction",
         type: "line",
         line: {
             color: 'rgb(55, 128, 191)',
@@ -355,6 +372,7 @@ welltbtn.on("click", function() {
     var trace4 = {
         x: x,
         y: u,
+        name: "Upper prediction",
         fill: 'tonexty',
         line: {
             color: 'rgb(55, 128, 191)',
@@ -364,6 +382,7 @@ welltbtn.on("click", function() {
         var trace2 = {
             x: x,
             y: z,
+            name: "Predicted Price",
             type: "line"
             };
     var datat = [trace1, trace3, trace4, trace2];
@@ -412,6 +431,7 @@ costbtn.on("click", function() {
     var trace1 = {
     x: x,
     y: y,
+    name: "Actual Price",
     type: "line",
     line: {
         color: 'rgb(0,0,0)',
@@ -421,6 +441,7 @@ costbtn.on("click", function() {
     var trace3 = {
         x: x,
         y: l,
+        name: "Lower Prediction",
         type: "line",
         line: {
             color: 'rgb(55, 128, 191)',
@@ -429,6 +450,7 @@ costbtn.on("click", function() {
     var trace4 = {
         x: x,
         y: u,
+        name: "Upper prediction",
         fill: 'tonexty',
         line: {
             color: 'rgb(55, 128, 191)',
@@ -438,6 +460,7 @@ costbtn.on("click", function() {
         var trace2 = {
             x: x,
             y: z,
+            name: "Predicted Price",
             type: "line"
             };
     var datat = [trace1, trace3, trace4, trace2];

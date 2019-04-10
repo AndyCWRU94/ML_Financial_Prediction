@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="general.css" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+</head>
+
+
+  <div class="container">
+    <h3 class="text-center">Financial Performance Measurement</h3>
+    <div class="row">
+      <div class="col-md-2">
+        <div id="MSF" class="thumbnail">
+          <a href= "index.html"><img src="https://www.pocketpc.ch/magazin/wp-content/uploads/2014/08/Microsoft-Logo.png" alt="..."></a>
+          <div class="caption text-center">
+            <h3><a href= "index.html" >Microsoft</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div id="APPLE" class="thumbnail">
+          <a href= "index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/768px-Apple_logo_black.svg.png" alt="..."></a>
+          <div class="caption text-center">
+            <h3><a href= "index.html" >Apple</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div id="Exxon" class="thumbnail">
+          <a href= "index.html"><img src="http://images.tritondigitalcms.com/6616/sites/274/2017/07/20173152/Exxon-Logo-CNN1.jpg" alt="..."></a>
+          <div class="caption text-center">
+            <h3><a href= "index.html" >ExxonMobile</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div id="STAR"class="thumbnail">
+          <a href= "index.html"><img src="http://logok.org/wp-content/uploads/2014/08/Starbucks-logo-2000px-png.png" alt="..."></a>
+          <div class="caption text-center">
+            <h3><a href= "index.html" >Starbucks</a></h3>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-2">
+        <div id="WELL" class="thumbnail">
+          <a href= "index.html"><img src="https://s3.amazonaws.com/freebiesupply/large/2x/wells-fargo-logo-transparent.png" alt="..."></a>
+          <div class="caption text-center">
+            <h3><a href= "index.html" >Wells Fargo</a></h3>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-2">
+        <div id="COST" class="thumbnail">
+          <a href= "index.html"><img src="https://www.buyvia.com/i/2013/11/costco-logo-300x300.png" alt="..."></a>
+          <div class="caption text-center">
+            <h3><a href= "index.html" >Costco</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row bottom10">
+        <div id="plot" class="col-md-8">
+            <!--This is where your plot will go-->
+            <!--<img src="image.png">-->
+        </div>
+        <div class="col-md-4"> 
+            <div style="margin-top:10px;margin-bottom:10px">
+                <h5 style="font-weight: bolder">Most Recent Financial Ratios</h5>
+            <hr>
+                <span>What we noticed was that the machine</span>
+                <span>learning library, fbprophet, found was</span>
+                <span>the general trading range of ticker.</span>
+                <span>Using this could indicate whether the company </span>
+                <span>was below it's average or above it's trading range</span>
+                <span>potentially indicating the stock was overvalued or undervalued</span>
+            </div>
+            <div style="margin-top:10px;margin-bottom:10px">
+                <span style="font-weight: bolder">Date<!--Pass in value--></span>
+                <p id="day"></p>
+                <span style="font-weight: bolder">Closing Price<!--Pass in value--></span>
+                <p id="close"></p>
+            </div>
+            <div style="margin-top:10px;margin-bottom:10px">
+                <span style="font-weight: bolder">Target Price(90 days)<!--Pass in value--></span>
+                <p id="predict"></p>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+   
+   <script src="app.js"></script>
+    
+</body>
+
+</html>
